@@ -9,9 +9,6 @@ selenium (3.141.0)
 – pytesseract (0.3.6).
 
 
-#--- Changes----#
-I have reated agent.py, main.py, wm.py and have not done any changes in decisionmaker.py
-
 # --Run ---
 main.py: It should be run with the mode and the number of games like this "python main.py autonomous 10"
 This main file calls Slitheragent class from agent.py which handles two different modes and differnt states of games. This agent.py code calls WindowManager class which opens the slither.io website using Chrome webdriver window sized at 600 x 600 in which the game is played and also take screenshot and extracts text from screenshot.
